@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "GURTATI_brain_games"
-version = "0.1.1"
+version = "0.1.3"
 description = ""
 authors = ["GurTati <z.atlantida.z@gmail.com>"]
 packages = [
-    { include = "brain_games" },
-  ]
+  { include = "brain_games" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -16,6 +16,8 @@ flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+
 
 [[tool.poetry.source]]
 name = "test"
@@ -23,4 +25,3 @@ url = "https://test.pypi.org/legacy/"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
-

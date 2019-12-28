@@ -2,6 +2,10 @@ from brain_games.cli import run
 
 
 def main():
-    text = 'Welcome to the Brain Games!'
-    print(text)
+    print("Welcome to the Brain Games!")
+    print('Answer "yes" if number even otherwise answer "no".\n')
     run()
+
+
+if __name__ == '__main__':
+    main()
