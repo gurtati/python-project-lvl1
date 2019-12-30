@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "GURTATI_brain_games"
-version = "0.1.4"
+version = "0.1.5"
 description = ""
 authors = ["GurTati <z.atlantida.z@gmail.com>"]
 packages = [
@@ -13,6 +13,8 @@ prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.7.9"
+autopep8 = "^1.4.4"
+yapf = "^0.29.0"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"

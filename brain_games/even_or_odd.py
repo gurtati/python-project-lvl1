@@ -16,7 +16,8 @@ def main():
             print("Correct!")
 
         else:
-            print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(reply, correct_answer))
+            print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(
+                reply, correct_answer))
             print("Let's try again, {}!".format(brain_games.cli.name))
             return
         i = i + 1
